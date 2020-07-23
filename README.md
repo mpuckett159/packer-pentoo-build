@@ -74,3 +74,7 @@ exits out of the installer</br>
 \"\<enter\>\<wait5s\>\"
 
 After that Packer will pick back up and do the rest of what it needs to do to export the VM automagically.
+
+Referenced this build processf or installing Pentoo, can follow it along for the most part though I skip over some things it does.
+
+https://github.com/pentoo/pentoo-overlay/wiki/Pentoo-Installer
