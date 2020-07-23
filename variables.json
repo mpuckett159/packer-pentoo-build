@@ -1,7 +1,7 @@
 {
-    "LIVECD_PASSWORD": "password",
-    "SYSTEM_PASSWORD": "password",
-    "NEW_USERNAME": "mpuckett",
-    "USER_PASSWORD": "password",
-    "ISO_PATH": "/Users/mpuckett/Downloads/pentoo-full-amd64-hardened-2020.0_p20200722.iso"
+    "LIVECD_PASSWORD": "",
+    "SYSTEM_PASSWORD": "",
+    "NEW_USERNAME": "",
+    "USER_PASSWORD": "",
+    "ISO_PATH": "/path/to/iso.iso"
 }
