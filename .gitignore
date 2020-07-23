@@ -5,3 +5,5 @@ packer_cache/
 *.box
 
 output-vmware-iso/
+
+output-isos/

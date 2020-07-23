@@ -33,6 +33,8 @@
         "iso_checksum_type": "none",
         "communicator": "none",
         "vm_name": "pento-packer-build",
+        "format": "ova",
+        "output_directory": "file:{{user `OUTPUT_DIR`}}",
         "vmx_data": {
           "cpuid.coresPerSocket": "2",
           "memsize": "4096",
