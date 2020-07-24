@@ -3,6 +3,7 @@
     "SYSTEM_PASSWORD": "password",
     "NEW_USERNAME": "mpuckett",
     "USER_PASSWORD": "password",
-    "ISO_PATH": "/Users/mpuckett/Downloads/pentoo-full-amd64-hardened-2020.0_p20200722.iso",
-    "OUTPUT_DIR": "output-isos/"
+    "ISO_PATH": "C:\\Users\\mpuckett\\Downloads\\pentoo-full-amd64-hardened-2019.1.iso",
+    "ISO_CHECKSUM": "md5:1C9BFC24BC11F7A854EFA8CDDAB1A4FA",
+    "OUTPUT_DIR": ".\\output-isos\\"
 }
