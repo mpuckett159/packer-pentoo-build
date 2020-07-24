@@ -32,10 +32,22 @@
             "iso_url": "{{user `ISO_PATH` }}",
             "iso_checksum": "{{ user `ISO_CHECKSUM` }}",
             "communicator": "none",
-            "vm_name": "pento-packer-build-vbx",
+            "vm_name": "pentoo-packer-build-vbx",
             "format": "ova",
             "output_directory": "{{user `OUTPUT_DIR`}}"
         }
     ],
-    "post-processors": []
+    "post-processors": [
+        {
+            "type": "amazon-import",
+            "access_key": "{{user `AWS_ACCESSKEY` }}",
+            "secret_key": "{{user `AWS_SECRETKEY` }}",
+            "region": "us-west-2",
+            "s3_bucket_name": "packer-test-ova-ami-conversion",
+            "license_type": "BYOL",
+            "tags": {
+              "Description": "packer"
+            }
+        }
+    ]
 }

@@ -1,6 +1,6 @@
 {
     "LIVECD_PASSWORD": "",
     "ISO_PATH": "",
-    "ISO_CHECKSUM": "",
+    "ISO_CHECKSUM": "md5:EXAMPLEMD5HASHSTRING",
     "OUTPUT_DIR": ""
 }

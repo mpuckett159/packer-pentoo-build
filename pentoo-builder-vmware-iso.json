@@ -19,7 +19,7 @@
         "iso_url": "{{user `ISO_PATH` }}",
         "iso_checksum": "{{ user `ISO_CHECKSUM` }}",
         "communicator": "none",
-        "vm_name": "pento-packer-build-vmw",
+        "vm_name": "pentoo-packer-build-vmw",
         "output_directory": "{{user `OUTPUT_DIR`}}",
         "vmx_data": {
           "memsize": "4096",
