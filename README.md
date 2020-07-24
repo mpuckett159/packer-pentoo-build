@@ -1,5 +1,7 @@
 packer build -var-file=/path/to/variables.json /path/to/pentoo-builder.json
 
+Note: the reason there's so many <wait100ms> in the VirtualBox one is that it would appear that Packer doesn't limit the rate of key presses like it does for Workstation.
+
 Relies on boot_boot commands need to test running stuff over SSH after I figure out the AWS AMI stuff
 
 Setting the keymap for the LiveCD environment would be super hard I think because you gotta time stuff weirdly so just letting it boot all the way to the live environment using the US keymap.
@@ -10,6 +12,7 @@ SYSTEM_PASSWORD - root password set for installed environment
 NEW_USERNAME - user to create on the new system
 USER_PASSWORD - password to set for the new user
 ISO_PATH - path to ISO file, can be absolute or relative
+OUTPUT_DIR - directory to dump the OVA file too
 
 Because I'm completely relying on the boot_commands it's kind of hard to figure out what exactly is being done by the commands so here's an explainer:
 
