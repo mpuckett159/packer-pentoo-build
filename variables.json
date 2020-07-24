@@ -1,9 +1,6 @@
 {
-    "LIVECD_PASSWORD": "password",
-    "SYSTEM_PASSWORD": "password",
-    "NEW_USERNAME": "mpuckett",
-    "USER_PASSWORD": "password",
-    "ISO_PATH": "C:\\Users\\mpuckett\\Downloads\\pentoo-full-amd64-hardened-2019.1.iso",
-    "ISO_CHECKSUM": "md5:1C9BFC24BC11F7A854EFA8CDDAB1A4FA",
-    "OUTPUT_DIR": ".\\output-isos\\"
+    "LIVECD_PASSWORD": "",
+    "ISO_PATH": "",
+    "ISO_CHECKSUM": "",
+    "OUTPUT_DIR": ""
 }
