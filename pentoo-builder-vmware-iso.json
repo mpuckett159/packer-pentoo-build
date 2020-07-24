@@ -30,7 +30,7 @@
         "guest_os_type": "other3xlinux-64",
         "headless": "false",
         "iso_url": "file:{{user `ISO_PATH` }}",
-        "iso_checksum_type": "none",
+        "iso_checksum": "{{ user `ISO_CHECKSUM` }}",
         "communicator": "none",
         "vm_name": "pento-packer-build",
         "output_directory": "file:{{user `OUTPUT_DIR`}}",
